@@ -189,8 +189,8 @@
 // console.log("bosluqlarin sayi", say);
 
 // task 18
-let a = 5;
-let b = 3;
+let a = 3;
+let b = 6;
 let start = Math.min(a, b);
 let end = Math.max(a, b);
 
