@@ -93,7 +93,7 @@
 // }
 
 // task 10
-// let text = "abdul45"; 
+// let text = "abdul45";
 // let text2 = false;
 
 // for (let i = 0; i < text.length; i++) {
@@ -108,3 +108,92 @@
 // } else {
 //     console.log("metnde reqem yoxdur");
 // }
+
+// let n = 10;
+// let num = 1, num2 = 2;
+
+// for (let i = 1; i <= n; i++) {
+//   console.log(num);
+//   let cem = num + num2;
+//   num = num2;
+//   num2 = cem;
+// }
+
+// for (let username = 56; username > 1; username--) {
+//     let num = username;
+//     let cnt = 0;
+
+//     for (let i = num; i > 0; i--) {
+//         if (num % i === 0) {
+//             cnt++;
+//         }
+//     }
+//     if (cnt === 2) {
+//         console.log(num);
+//     }
+// }
+
+// task 11
+// function Palindrom(str) {
+//     const reversed = str.split('').reverse().join('');
+//     return str === reversed;
+// }
+// console.log(Palindrom("ata"));
+// console.log(Palindrom("level"));
+// console.log(Palindrom("schol"));
+
+// task 12
+// for (let i = 100; i <= 500; i++) {
+//   if (i % 5 === 2) {
+//     console.log(i);
+//   }
+// }
+
+// task 13
+// let num = "15";
+// let sum = 0;
+// for (let i = 0; i < num.length; i++) {
+//     sum += Number(num[i]);
+// }
+// console.log("reqemlerin cemi " + sum);
+
+// task 14
+// let n = 12;
+
+// for (let i = n; i >= 1; i--) {
+//   if (n % i === 0) {
+//     console.log(i);
+//   }
+// }
+
+// ! task 15
+// for (let i = 1; i <= 30; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log(i);
+//     }
+// }
+
+// task 16
+// let text = "hello world";
+// console.log(text.split("").join("-"));
+
+// task 17
+// let text = "python";
+// let say = 0;
+
+// for (let i = 0; i < text.length; i++) {
+//     if (text[i] === " ") {
+//         say++;
+//     }
+// }
+// console.log("bosluqlarin sayi", say);
+
+// task 18
+let a = 5;
+let b = 3;
+let start = Math.min(a, b);
+let end = Math.max(a, b);
+
+for (let i = start; i <= end; i++) {
+    console.log(i * i);
+}
